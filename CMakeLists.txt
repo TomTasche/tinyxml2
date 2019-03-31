@@ -46,7 +46,7 @@ set(CMAKE_CXX_VISIBILITY_PRESET hidden)
 set(CMAKE_VISIBILITY_INLINES_HIDDEN 1)
 
 # to distinguish between debug and release lib
-set(CMAKE_DEBUG_POSTFIX "d")
+#set(CMAKE_DEBUG_POSTFIX "d")
 
 add_library(tinyxml2 tinyxml2.cpp tinyxml2.h)
 
